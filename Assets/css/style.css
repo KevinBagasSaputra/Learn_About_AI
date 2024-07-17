@@ -1,0 +1,165 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;}
+
+
+/* Navbar START */
+nav{
+    width: 100%;
+}
+
+nav .container{
+    padding: 10px;
+    background-color: #259DF7;
+}
+
+nav .container ul{
+    padding: 5px;
+}
+
+nav .container ul li{
+    display: flex;
+    justify-content: center;
+
+    padding: 5px;
+}
+
+nav .container ul li .judul{
+    color: white;
+    box-shadow: 0 0 400px 1px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+nav .container ul li a{
+    color: white;
+
+    font-size: 22px;
+    font-weight: 900;
+    
+    list-style-type: none;
+    text-decoration: none;
+}
+/* Navbar END */
+
+
+
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+    background-color: black;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.hero img{
+    max-width: 100%; /*KECIL*/ 
+    /* max-height: 500px; */
+    
+    min-width: 70%; /*BESAR*/
+    min-height: 100%;    
+}
+
+.hero .container{
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero .container img{
+    max-width: 100%; /*KECIL*/ 
+    /* max-height: 500px; */
+    
+    min-width: 70%; /*BESAR*/
+
+    /* min-height: 100%; */
+                        min-height: 200px;
+                        object-fit: cover;
+    
+    border: 2px dashed #259DF7;
+    border-radius: 16px;
+    box-shadow: 0 0 10px 2px wh;
+}
+
+
+.hero .container h2{    
+    color: white;
+    font-size: 20px;
+}                       .hero .container p{
+                            color: white;
+                        }
+/* Hero END */
+
+
+/* Pemaparan START */
+.pemaparan{
+    width: 100%;
+    background-color: #081324;
+}
+
+.pemaparan .container{
+    padding: 20px;
+}
+
+.pemaparan .container h2, h3{
+    color: white;
+}
+
+.pemaparan .container p{
+    color: white;
+}
+
+.pemaparan .container ul{
+    width: 80%;
+    text-align: center;
+    
+    padding: 20px;
+    border-radius: 4px;
+
+    color: white;
+    background-color: #259DF7;
+
+    box-shadow: 0 0 20px 1px rgb(22, 117, 185);
+}
+/* Pemaparan END */
+
+
+
+
+/* Sejarah START */
+.sejarah{
+    width: 100%;
+
+    background-color:black;
+}
+
+.sejarah .container{
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sejarah .container img{
+    max-width: 100%;
+
+    min-width: 40%;
+    object-fit: cover;
+}
+
+.sejarah .container .sejarah-text{
+    background-color: white;
+    padding: 20px;
+    list-style-type: none;
+}
+
+/* Sejarah END */
